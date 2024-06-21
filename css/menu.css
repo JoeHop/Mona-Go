@@ -47,7 +47,7 @@
 }
 
 .sticky {
-  background-color: #0099ff;
+  background-color: #2f3131;
   opacity: 1;
   top: 0px;
   border-top-width: 1px;
@@ -104,7 +104,7 @@ a.out {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  background: #0099FF;
+  background: #2f3131;
   color: #fff;
 }
 
@@ -116,7 +116,7 @@ a.out:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #008CEA;
+  background: #56585a;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
@@ -140,7 +140,7 @@ a.out:hover:before,a.out:focus:before,a.out:active:before {
 
 nav ul a.active {
   color: #fff;
-  background-color: #008CEA;
+  background-color: #56585a;
   pointer-events: none;
   cursor: default;
 }
@@ -188,7 +188,7 @@ nav ul a.active {
 
 @media only screen and (max-width: 766px) {
   .sticky {
-    background-color: #101529;
+    background-color: #10182F;
   }
 
   .main_h {
